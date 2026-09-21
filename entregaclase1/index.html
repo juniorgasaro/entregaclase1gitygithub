@@ -23,6 +23,27 @@
         </div>
     </header>
     <main>
+        <section class="pasos-sugeridos" id="pasos-sugeridos">
+            <h2>Pasos sugeridos</h2>
+            <p>Revisión Local: Ejecuta git status para asegurarte de que no tienes cambios pendientes sin confirmar.</p>
+            <p>Configura el Ignorado: Crea o edita tu archivo .gitignore. Asegúrate de añadir archivos que tu sistema operativo crea automáticamente.</p>
+            <p>Redacta tu README: Usa la sintaxis Markdown que aprendimos. Incluye un título claro y explica para qué sirve tu proyecto.</p>
+            <p>Haz el Commit Final: Agrega estos archivos al staging area y crea un commit con un mensaje como docs: agregar README y configuracion inicial de gitignore.</p>
+            <p>Crea el Repo en GitHub: Ve a GitHub, crea un repositorio nuevo (vacío, sin inicializar README allí) y copia la URL.</p>
+            <p>Vincula y Sube: Usa git remote add origin [URL] y luego git push -u origin main (o master).</p>
+        </section>
+        <section class="errores-comunes" id="errores-comunes">
+            <h2>Errores comunes</h2>
+            <p>Subir archivos que deberían ignorarse: Si haces un commit de un archivo y luego lo agregas al .gitignore, Git lo seguirá rastreando. Debes borrarlo del índice con git rm --cached antes de que el ignorado surta efecto.</p>
+            <p>Mensajes de commit genéricos: "Update" no dice nada. Usa "feat: agregar estructura inicial" o "docs: mejorar instrucciones en README".</p>
+        </section>
+        <section class="proyecto-final" id="proyecto-final">
+            <h2>Proyecto final</h2>
+            <p>Esta preentrega es la piedra angular. El Proyecto Final del programa será un repositorio colaborativo completo. Lo que entregas hoy es el "Contenedor" donde vivirá todo ese código.</p>
+            <p>Sin el .gitignore de hoy, tu proyecto final pesaría demasiado y sería inseguro.</p>
+            <p>Sin el README.md, nadie sabría cómo ejecutar tu entrega final.</p>
+            <p>Sin la vinculación a GitHub, no podrías realizar el despliegue que haremos en el Módulo 3.</p>
+        </section>
     </main>
 </body>
 </html>
