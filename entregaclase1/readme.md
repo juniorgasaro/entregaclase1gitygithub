@@ -15,3 +15,6 @@ En este caso creamos un index.html con un Header y un Body simple con los requis
 1. Clonar el repositorio.
 2. Abrir la carpeta del proyecto.
 3. Abrir el archivo `index.html` en el navegador.
+
+## Objetivo
+Este proyecto forma parte de mi formación en desarrollo Full Stack.
