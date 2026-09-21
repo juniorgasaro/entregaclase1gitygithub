@@ -26,6 +26,13 @@ ul {
 
 }
 
+h2 {
+    font-size: 2rem;
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
 /* Header Styles */
 
 header {
@@ -36,10 +43,37 @@ header {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .header-right ul {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+/* Main Styles */
+
+.pasos-sugeridos {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.errores-comunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.proyecto-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
 }
